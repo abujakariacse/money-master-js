@@ -34,50 +34,44 @@
                             <label class="col-form-label">Income:</label>
                         </div>
                         <div class="col-auto">
-                            <input type="number" id="inputPassword6" class="form-control"
-                                aria-describedby="passwordHelpInline">
+                            <input type="number" id="income-field" class="form-control">
                         </div>
                     </div>
                     <!-- Expenses start  -->
-                    <!-- 1 -->
                     <div class="row g-3 align-items-center mb-3">
                         <h5 class="ps-5  ms-5">Expenses</h5>
                         <div class="col-auto">
                             <label class="col-form-label">Food:</label>
                         </div>
                         <div class="col-auto">
-                            <input type="number" id="" class="form-control">
+                            <input type="number" id="food-cost" class="form-control">
                         </div>
                     </div>
-                    <!-- 2 -->
                     <div class="row g-3 align-items-center mb-3">
                         <div class="col-auto">
-                            <label for="inputPassword6" class="col-form-label">Rent:</label>
+                            <label class="col-form-label">Rent:</label>
                         </div>
                         <div class="col-auto">
-                            <input type="number" id="" class="form-control">
+                            <input type="number" id="rent-cost" class="form-control">
                         </div>
                     </div>
-                    <!-- 3 -->
                     <div class="row g-3 align-items-center mb-3">
                         <div class="col-auto">
-                            <label for="inputPassword6" class="col-form-label">Cloths:</label>
+                            <label class="col-form-label">Cloths:</label>
                         </div>
                         <div class="col-auto">
-                            <input type="number" id="" class="form-control">
+                            <input type="number" id="cloth-cost" class="form-control">
                         </div>
                     </div>
-                    <!-- calculate button  -->
-                    <button type="submit" class="calculate-btn btn btn-primary mb-4">Calculate</button>
-                    <h4 class="">Total Expenses: $<span>5500</span></h4>
-                    <h4 class="mb-4">Balance: $<span>4500</span></h4>
+                    <button id="calc-btn" type="submit" class="calculate-btn btn btn-primary mb-4">Calculate</button>
+                    <h4 class="">Total Expenses: $<span id="total-cost">5500</span></h4>
+                    <h4 class="mb-4">Balance: $<span id="current-balance">4500</span></h4>
 
                     <!-- saving section start  -->
                     <div class="row g-3 align-items-center mb-3">
                         <div class="col-auto">
                             <label class="col-form-label">Save:</label>
                         </div>
-
                         <div class="col-auto">
                             <input type="number" class="form-control">
                         </div>
@@ -87,11 +81,8 @@
                         </div>
                         <h4 class="mt-4">Saving Amount: $<span>2000</span></h4>
                         <h4>Remaining Balance: $<span>2500</span></h4>
-
                     </div>
-
                 </div>
-
             </div>
         </section>
     </main>
