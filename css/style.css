@@ -6,15 +6,17 @@ body{
     padding: 0;
 }
 
-.calc-img{
-    border-radius: 50px;
-}
 .calc-area{
     background-color: #F8F8F8;  
     border-radius: 15px;
     padding: 30px;
+
     
 }
-.calculate-btn{
-    margin-left: 120px;
+.save-field{
+    border: 1px solid lightgrey;
+}
+.body-image{
+    height: 760px;
+   
 }

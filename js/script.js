@@ -19,6 +19,7 @@ document.getElementById('calc-btn').addEventListener('click',function(){
     const clothCost = getInputValue('cloth-cost');
     const totalCost = foodCost + rentCost + clothCost;
 
+    // error throw updating
     if(foodCost >= 0 && rentCost >= 0 && clothCost >=0 && income > totalCost){
         
     const getTotalCost = document.getElementById('total-cost');
@@ -38,6 +39,7 @@ document.getElementById('calc-btn').addEventListener('click',function(){
     
 })
 
+// Save button evennt hadler add 
 document.getElementById('saving-btn').addEventListener('click',function(){
     const saving = getInputValue('saving-field');
     const income = getInputValue('income-field');
@@ -49,6 +51,7 @@ document.getElementById('saving-btn').addEventListener('click',function(){
     const currenBalanceText = document.getElementById('current-balance').innerText;
     const currentBalance = parseFloat(currenBalanceText);
 
+    // Error Throw 
     if(saving>0 && savingAmount < currentBalance){ 
         getsavingField.innerText = savingAmount;
 
